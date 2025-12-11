@@ -151,7 +151,7 @@ def classify_topic(df):
 
     logger.info("Ejecutando zero-shot optimizado...")
 
-    # ⚡ batch pequeño = más rápido y estable
+    #  batch pequeño = más rápido y estable
     results = zs(textos, temas, truncation=True, batch_size=4)
 
     df["topic"] = [r["labels"][0] for r in results]
@@ -248,5 +248,5 @@ def main(path_csv):
 # EJECUCIÓN
 # --------------------------
 if __name__ == "__main__":
-    df_final = main("/content/mineria_con_pmc.csv")
+    df_final = main("resultos bucador.csv")
     df_final.head()
