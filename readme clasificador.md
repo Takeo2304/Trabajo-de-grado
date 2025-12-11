@@ -140,13 +140,10 @@ python script.py
 
 ## Salida esperada
 
-  --------------------------------------------------------------------------------------------------------------------
-  title_clean   abstract_clean   country    topic            sample_size   method_used   pct_values   antibiotics
-  ------------- ---------------- ---------- ---------------- ------------- ------------- ------------ ----------------
-  normalized    normalized       Colombia   antimicrobial    n=100         E-test        \[45%\]      clarithromycin
-  title         abstract                    susceptibility                                            
+| title_clean | abstract_clean | country  | topic           | sample_size | method_used | pct_values | antibiotics     |
+|-------------|----------------|----------|------------------|-------------|-------------|------------|------------------|
+| normalized title | normalized abstract | Colombia | antimicrobial susceptibility | n=100 | E-test | [45%] | clarithromycin |
 
-  --------------------------------------------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------
 
